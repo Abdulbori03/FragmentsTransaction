@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="8sp"
+            android:id="@+id/btn_add"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            tools:ignore="ButtonStyle,SmallSp" />
+
+        <Button
+            android:textSize="8sp"
+            android:id="@+id/btn_replace"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/replace"
+            tools:ignore="ButtonStyle,SmallSp"/>
+
+        <Button
+            android:textSize="8sp"
+            android:id="@+id/btn_remove"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/remove"
+            tools:ignore="ButtonStyle,SmallSp"/>
+
+        <Button
+            android:textSize="8sp"
+            android:id="@+id/btn_hide"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hide"
+            tools:ignore="ButtonStyle,SmallSp"/>
+
+        <Button
+            android:textSize="8sp"
+            android:id="@+id/btn_show"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/show"
+            tools:ignore="ButtonStyle,SmallSp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>

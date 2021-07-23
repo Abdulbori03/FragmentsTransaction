@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fragments3Transaction</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="muhammadumar">MuhammadUmar</string>
+    <string name="muhammadumar_fragment_2_da">MuhammadUmar fragment 2 da</string>
+    <string name="replace">replace</string>
+    <string name="remove">remove</string>
+    <string name="hide">hide</string>
+    <string name="show">show</string>
+    <string name="add">add</string>
+</resources>
